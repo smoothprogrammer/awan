@@ -1,4 +1,11 @@
 # nix
-.direnv
+.direnv/
 result
 result-*
+
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+config.tf.json
